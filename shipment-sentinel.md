@@ -61,37 +61,37 @@ The device features a sealed enclosure designed to protect internal hardware dur
 
 
 <p align="center">
-<img src="components.jpeg" width="400"><br/>
+<img src="components.jpeg" width="800"><br/>
 <i>System prototyping stage showing the MYOSA core board connected to the multi-sensor stack, external power bank, and SPI microSD logging module.</i>
 </p>
 
 <p align="center">
-<img src="enclosure.jpeg" width="400"><br/>
+<img src="enclosure.jpeg" width="800"><br/>
 <i>Internal hardware assembly showcasing the MYOSA ESP32 motherboard, stackable sensor module stack, microSD logger, and high-capacity 21700 Li-ion battery.</i>
 </p>
 
 <p align="center">
-<img src="final-structure.jpeg" width="400"><br/>
+<img src="final-structure.jpeg" width="800"><br/>
 <i>The final sealed enclosure houses the full sensing stack in a tamper-resistant unit. A precise top aperture leaves the APDS9960 ambient light sensor exposed to detect unauthorized box openings, while an externally accessible push-button allows the recipient to initiate the 2-second hold sequence to activate the onboard WiFi access point for data extraction.</i>
 </p>
 
 <p align="center">
-<img src="front-end.jpeg" width="400"><br/>
+<img src="front-end.jpeg" width="800"><br/>
 <i>Shipment Sentinel desktop ingestion utility displaying the cryptographic chain-of-custody audit log, complete with itemized event timestamps, telemetry metrics, and rolling SHA-256 block hashes.</i>
 </p>
 
 <p align="center">
-<img src="time-graph.jpeg" width="400"><br/>
+<img src="time-graph.jpeg" width="800"><br/>
 <i>Shipment Sentinel desktop app displaying real-time telemetry waveforms, Integrity Score breakdown, and verified SHA-256 hash-chain audit log.</i>
 </p>
 
 <p align="center">
-<img src="coc-transit-certificate.jpeg" width="400"><br/>
+<img src="coc-transit-certificate.jpeg" width="800"><br/>
 <i>Auto-generated Chain-of-Custody Transit Certificate featuring cryptographic verification status, trip passport metadata, incident excursion summary, and printable audit trail.</i>
 </p>
 
 <p align="center">
-<img src="oled.jpeg" width="400"><br/>
+<img src="oled.jpeg" width="800"><br/>
 <i>0.96-inch OLED display module used during prototyping and testing to display real-time trip summaries, incident counts, and live integrity scores.</i>
 </p>
 
@@ -104,7 +104,7 @@ The device features a sealed enclosure designed to protect internal hardware dur
   <source src="shipment-sentinel-explanation.mp4" type="video/mp4">
 </video>
 
-[▶ Click here to watch the Project Explanation Video](shipment-sentinel-explanation.mp4?raw=true)
+[▶ Click here to watch the Project Explanation Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-explanation.mp4)
 
 #### 2. Live Demonstration Video
 
@@ -112,7 +112,7 @@ The device features a sealed enclosure designed to protect internal hardware dur
   <source src="shipment-sentinel-demo.mp4" type="video/mp4">
 </video>
 
-[▶ Click here to watch the Live Demonstration Video](shipment-sentinel-demo.mp4?raw=true)
+[▶ Click here to watch the Live Demonstration Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-demo.mp4)
 
 ---
 
