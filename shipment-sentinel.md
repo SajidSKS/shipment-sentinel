@@ -104,11 +104,21 @@ The device features a sealed enclosure designed to protect internal hardware dur
   <source src="shipment-sentinel-explanation.mp4" type="video/mp4">
 </video>
 
-[▶ Click here to watch the Project Explanation Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-explanation.mp4)
+
+#### 2. Live Demonstration Video
+### Videos
+
+#### 1. Project Explanation Video
+
+<video controls width="100%">
+  <source src="./shipment-sentinel-explanation.mp4" type="video/mp4">
+</video>
 
 #### 2. Live Demonstration Video
 
-https://github.com/user-attachments/assets/9a2c8cb4-0ac7-4288-9f29-d50a4d84027f
+<video controls width="100%">
+  <source src="./shipment-sentinel-demo.mp4" type="video/mp4">
+</video>
 
 ## Features (Detailed)
 
