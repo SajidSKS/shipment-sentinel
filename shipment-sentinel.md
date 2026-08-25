@@ -95,20 +95,23 @@ The device features a sealed enclosure designed to protect internal hardware dur
 <i>0.96-inch OLED display module used during prototyping and testing to display real-time trip summaries, incident counts, and live integrity scores.</i>
 </p>
 
-
 ### Videos
 
 #### 1. Project Explanation Video
 
 <video controls width="100%">
-  <source src="./shipment-sentinel-explanation.mp4" type="video/mp4">
+  <source src="shipment-sentinel-explanation.mp4" type="video/mp4">
 </video>
+
+[▶ Click here to watch the Project Explanation Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-explanation.mp4)
 
 #### 2. Live Demonstration Video
 
 <video controls width="100%">
-  <source src="./shipment-sentinel-demo.mp4" type="video/mp4">
+  <source src="shipment-sentinel-demo.mp4" type="video/mp4">
 </video>
+
+[▶ Click here to watch the Live Demonstration Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-demo.mp4)
 
 ## Features (Detailed)
 
