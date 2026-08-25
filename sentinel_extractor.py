@@ -1043,12 +1043,12 @@ class SentinelExtractorApp:
         dev_id = data.get("deviceId", "SENTINEL").replace("-", "_")
         time_slug = time.strftime("%Y%m%d_%H%M%S")
         
-        json_filename = f"Trip_{dev_id}_{time_slug}.json"
+        json_filename = f"Trip_{dev_id}_{time_slug}.json".lower()
         json_path = os.path.join(REPORTS_DIR, json_filename)
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
 
-        csv_filename = f"Trip_{dev_id}_{time_slug}.csv"
+        csv_filename = f"Trip_{dev_id}_{time_slug}.csv".lower()
         csv_path = os.path.join(REPORTS_DIR, csv_filename)
         csv_content = data.get("csv", "").strip()
 
