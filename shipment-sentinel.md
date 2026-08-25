@@ -61,7 +61,7 @@ The device features a sealed enclosure designed to protect internal hardware dur
 
 
 <p align="center">
-<img src="components.jpeg" width="400"><br/>
+<img src="components.jpeg" width="800"><br/>
 <i>System prototyping stage showing the MYOSA core board connected to the multi-sensor stack, external power bank, and SPI microSD logging module.</i>
 </p>
 
