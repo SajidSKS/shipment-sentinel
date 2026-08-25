@@ -1,0 +1,34 @@
+{
+  "firmware": "v4.0",
+  "deviceId": "SENTINEL-AC7F",
+  "extractTime": "2026-08-24 23:55:46",
+  "uptime": "0h 3m 21s",
+  "storage": "microSD (exFAT/FAT32)",
+  "score": 35,
+  "status": "COMPROMISED",
+  "counters": {
+    "minorShocks": 11,
+    "severeShocks": 0,
+    "totalShocks": 11,
+    "drops": 1,
+    "tamperEvents": 10,
+    "totalTamperSecs": 34,
+    "pressureAlerts": 0
+  },
+  "metrics": {
+    "worstImpactG": 9.48,
+    "worstDropG": 0.02,
+    "worstDropHeightM": 0.12,
+    "currentPressure": 1012.2,
+    "currentLight": 404,
+    "boxIsOpen": true
+  },
+  "sensors": {
+    "mpu": true,
+    "bmp": true,
+    "apds": true,
+    "rtc": true,
+    "sd": true
+  },
+  "csv": "# Shipment Sentinel v4.0 Cryptographic Trip Log\r\n# Storage: microSD (SdFat exFAT/FAT32)\r\n# Armed At: 2026-08-24 21:43:18\r\nElapsed(s),Timestamp,Event,Value,Score,Hash\r\n0,2026-08-24 21:43:18,SYSTEM,Sentinel Re-Armed (5s Placement Buffer),100,3fa4e58e55b74062\n0,2026-08-24 23:08:20,SYSTEM,Device Boot (5s Placement Buffer),100,8db1d79ea7bde832\n0,2026-08-24 23:08:20,SYSTEM,Device Boot (5s Placement Buffer),100,e2e22af05e55a581\n9,2026-08-24 23:08:30,TAMPER_OPEN,Light:51,97,85f89be1cdf7eb97\n9,2026-08-24 23:08:30,TAMPER_CLOSED,Open:0s,97,954afa3075446afb\n19,2026-08-24 23:08:40,SHOCK,2.21G,94,07be29de07f31167\n62,2026-08-24 23:09:23,TAMPER_OPEN,Light:38,91,d18d90cbb1ada18b\n63,2026-08-24 23:09:24,TAMPER_CLOSED,Open:0s,91,3125a36dca4dc815\n66,2026-08-24 23:09:27,SHOCK,2.46G,88,8bbd8b8e90e3ca65\n66,2026-08-24 23:09:27,SEVERE,Tamper + Impact Correlated,88,91738a8d2e9eb0d3\n77,2026-08-24 23:09:38,SHOCK,2.21G,85,d19907301e73c097\n78,2026-08-24 23:09:39,TAMPER_OPEN,Light:59,72,980a16716904237f\n79,2026-08-24 23:09:39,DROP_IMPACT,9.48G,72,71fb3741b9fed742\n81,2026-08-24 23:09:42,TAMPER_CLOSED,Open:2s,72,60ba70f5b30db639\n86,2026-08-24 23:09:47,SHOCK,2.30G,69,83b598c2cf56a957\n101,2026-08-24 23:10:02,SHOCK,2.68G,66,4ba55213794939ce\n105,2026-08-24 23:10:06,SHOCK,2.34G,63,9cabfb8658078350\n106,2026-08-24 23:10:07,SHOCK,2.45G,60,eb38ef90e61ae399\n673,2026-08-24 23:19:34,TAMPER_OPEN,Light:49,57,1e6c4e3f8562a591\n696,2026-08-24 23:19:57,TAMPER_CLOSED,Open:23s,52,2b241471c98c173e\n696,2026-08-24 23:19:57,TAMPER_OPEN,Light:33,49,5806626b3ca54a46\n701,2026-08-24 23:20:01,TAMPER_CLOSED,Open:4s,49,e80d15acc04ea9f3\n724,2026-08-24 23:20:25,TAMPER_OPEN,Light:89,46,bc6ea6788c4bccb0\n725,2026-08-24 23:20:26,TAMPER_CLOSED,Open:1s,45,78b0067145c12978\n726,2026-08-24 23:20:27,SHOCK,3.59G,42,4bec1a81cc5a146c\n726,2026-08-24 23:20:27,TAMPER_OPEN,Light:90,41,d11268568a23504e\n0,2026-08-24 23:08:20,SYSTEM,Device Boot (5s Placement Buffer),51,84b3524b687ab8f1\n5,2026-08-24 23:08:25,TAMPER_OPEN,Light:597 (detected at arming),51,b56d13f1b13c5e13\n0,2026-08-24 23:50:13,SYSTEM,Device Boot (5s Placement Buffer),51,2d1c859665544d92\n5,2026-08-24 23:50:18,TAMPER_OPEN,Light:625 (detected at arming),51,c7160e0f17323d19\n0,2026-08-24 23:49:01,SYSTEM,Device Boot (5s Placement Buffer),51,885fb1b44b40c8a8\n105,2026-08-24 23:50:47,SHOCK,2.56G,48,adc22db75a549bb7\n0,2026-08-24 23:52:54,SYSTEM,Device Boot (5s Placement Buffer),48,67a86f8836a05f29\n164,2026-08-24 23:55:38,DROP,0.12m | 0.02G (155ms),38,eafd0b92dc89a690\n164,2026-08-24 23:55:38,DROP_IMPACT,2.63G,38,6a30ee0b37170e63\n166,2026-08-24 23:55:41,SHOCK,2.58G,35,4b995b6432a230a0\n167,2026-08-24 23:55:41,TAMPER_OPEN,Light:82,35,e45d73e573e540bd\n167,2026-08-24 23:55:42,SHOCK,2.41G,35,f55aea40bc07b308\n"
+}
