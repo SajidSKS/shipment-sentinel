@@ -2,7 +2,7 @@
 publishDate: 2026-08-25
 title: Shipment Sentinel — A Multi-Sensor Tamper-Evident Logger for Shipping & Asset Integrity Monitoring
 excerpt: A device built on the MYOSA kit that stays fully offline for the entire journey, logging every shock, drop, tamper, and pressure event a shipment experiences in transit, then hands over a tamper-evident, cryptographically verifiable record once it reaches the receiver.
-image: shipment-sentinel/cover-image.jpeg
+image: shipment-sentinel/cover-image.png
 tags:
 - iot
 - logistics
