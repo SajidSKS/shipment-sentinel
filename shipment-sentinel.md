@@ -61,39 +61,40 @@ The device features a sealed enclosure designed to protect internal hardware dur
 
 
 <p align="center">
-<img src="components.jpeg" width="800"><br/>
+<img src="components.jpeg" width="400"><br/>
 <i>System prototyping stage showing the MYOSA core board connected to the multi-sensor stack, external power bank, and SPI microSD logging module.</i>
 </p>
 
 <p align="center">
-<img src="enclosure.jpeg" width="800"><br/>
+<img src="enclosure.jpeg" width="400"><br/>
 <i>Internal hardware assembly showcasing the MYOSA ESP32 motherboard, stackable sensor module stack, microSD logger, and high-capacity 21700 Li-ion battery.</i>
 </p>
 
 <p align="center">
-<img src="final-structure.jpeg" width="800"><br/>
+<img src="final-structure.jpeg" width="400"><br/>
 <i>The final sealed enclosure houses the full sensing stack in a tamper-resistant unit. A precise top aperture leaves the APDS9960 ambient light sensor exposed to detect unauthorized box openings, while an externally accessible push-button allows the recipient to initiate the 2-second hold sequence to activate the onboard WiFi access point for data extraction.</i>
 </p>
 
 <p align="center">
-<img src="front-end.jpeg" width="800"><br/>
+<img src="front-end.jpeg" width="400"><br/>
 <i>Shipment Sentinel desktop ingestion utility displaying the cryptographic chain-of-custody audit log, complete with itemized event timestamps, telemetry metrics, and rolling SHA-256 block hashes.</i>
 </p>
 
 <p align="center">
-<img src="time-graph.jpeg" width="800"><br/>
+<img src="time-graph.jpeg" width="400"><br/>
 <i>Shipment Sentinel desktop app displaying real-time telemetry waveforms, Integrity Score breakdown, and verified SHA-256 hash-chain audit log.</i>
 </p>
 
 <p align="center">
-<img src="coc-transit-certificate.jpeg" width="800"><br/>
+<img src="coc-transit-certificate.jpeg" width="400"><br/>
 <i>Auto-generated Chain-of-Custody Transit Certificate featuring cryptographic verification status, trip passport metadata, incident excursion summary, and printable audit trail.</i>
 </p>
 
 <p align="center">
-<img src="oled.jpeg" width="800"><br/>
+<img src="oled.jpeg" width="400"><br/>
 <i>0.96-inch OLED display module used during prototyping and testing to display real-time trip summaries, incident counts, and live integrity scores.</i>
 </p>
+
 
 ### Videos
 
@@ -103,7 +104,7 @@ The device features a sealed enclosure designed to protect internal hardware dur
   <source src="shipment-sentinel-explanation.mp4" type="video/mp4">
 </video>
 
-[▶ Click here to watch the Project Explanation Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-explanation.mp4)
+[▶ Click here to watch the Project Explanation Video](shipment-sentinel-explanation.mp4?raw=true)
 
 #### 2. Live Demonstration Video
 
@@ -111,7 +112,9 @@ The device features a sealed enclosure designed to protect internal hardware dur
   <source src="shipment-sentinel-demo.mp4" type="video/mp4">
 </video>
 
-[▶ Click here to watch the Live Demonstration Video](https://github.com/SajidSKS/shipment-sentinel/raw/main/shipment-sentinel-demo.mp4)
+[▶ Click here to watch the Live Demonstration Video](shipment-sentinel-demo.mp4?raw=true)
+
+---
 
 ## Features (Detailed)
 
@@ -199,27 +202,42 @@ The device runs on a single Samsung INR21700-48X, 3.6V, 4800mAh, 2C-rated Li-ion
 * Arduino IDE with ESP32 board support
 * Libraries: MPU6050, Adafruit APDS9960, Adafruit BMP180, RTClib, SdFat
 
-```markdown
 **Companion desktop app:**
+
 * Python 3.8 or later
 * Install the required third-party dependency:
+
 ```bash
 pip install Pillow
+```
+
+> **Note:** All other modules used — `tkinter`, `hashlib`, `csv`, `json`, `urllib`, `threading`, `subprocess`, `os`, `sys`, `math`, `time`, `tempfile`, `webbrowser`, `ctypes` — are part of the Python standard library and require no installation.
+
 ---
 
 ## File Structure
 
 ```
-shipment-sentinel
-|-shipment-sentinel.md            # Full technical report
-├── LICENSE                       # License text file
-├─ shipment_sentinel.ino          # ESP32 firmware source (sensors, storage, hash chain, WiFi server)
-├─ sentinel_extractor.py          # Desktop ingestion utility & hash verifier (Python 3, Tkinter)
-├─ launch_sentinel_extractor.bat  # One-click launcher for the ingestion utility
-└─ sentinel_reports               # Extracted chain-of-custody archives
-   ├─ Trip_SENTINEL_AC7F_20260825_000152.csv                         # Raw event logs
-   ├─ Trip_SENTINEL_AC7F_20260825_000152.json                        # Trip metadata / passport records
-   └─ Chain-of-Custody Transit Certificate — CERT-1787654897-SENTIN  # Printable inspection certificates
+shipment-sentinel/
+├── shipment-sentinel.md                  # Full technical report
+├── LICENSE.txt                           # MIT License
+├── shipment_sentinel.ino                 # ESP32 firmware source (sensors, storage, hash chain, WiFi server)
+├── sentinel_extractor.py                 # Desktop ingestion utility & hash verifier (Python 3, Tkinter)
+├── launch_sentinel_extractor.bat         # One-click launcher for the ingestion utility
+├── cover-image.png                       # Project cover image
+├── components.jpeg                       # Prototyping stage photo
+├── enclosure.jpeg                        # Internal hardware assembly photo
+├── final-structure.jpeg                  # Sealed enclosure photo
+├── front-end.jpeg                        # Desktop app audit log screenshot
+├── time-graph.jpeg                       # Telemetry waveform screenshot
+├── coc-transit-certificate.jpeg          # Chain-of-Custody certificate screenshot
+├── oled.jpeg                             # OLED display prototyping photo
+├── shipment-sentinel-explanation.mp4     # Project explanation video
+├── shipment-sentinel-demo.mp4            # Live demonstration video
+└── sentinel_reports/                     # Extracted chain-of-custody archives
+    ├── Trip_SENTINEL_AC7F_20260825_000152.csv                                # Raw event log
+    ├── Trip_SENTINEL_AC7F_20260825_000152.json                               # Trip metadata / passport record
+    └── Chain-of-Custody Transit Certificate — CERT-1787654897-SENTIN.pdf     # Printable inspection certificate
 ```
 
 ---
