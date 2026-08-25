@@ -199,12 +199,12 @@ The device runs on a single Samsung INR21700-48X, 3.6V, 4800mAh, 2C-rated Li-ion
 * Arduino IDE with ESP32 board support
 * Libraries: MPU6050, Adafruit APDS9960, Adafruit BMP180, RTClib, SdFat
 
+```markdown
 **Companion desktop app:**
-
+* Python 3.8 or later
+* Install the required third-party dependency:
 ```bash
-pip install tk pandas matplotlib
-```
-
+pip install Pillow
 ---
 
 ## File Structure
