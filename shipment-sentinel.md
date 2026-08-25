@@ -99,14 +99,12 @@ The device features a sealed enclosure designed to protect internal hardware dur
 ### Videos
 
 #### 1. Project Explanation Video
-<video controls width="100%">
-<source src="shipment-sentinel-explanation.mp4" type="video/mp4">
-</video>
+
+![Project Explanation Video](shipment-sentinel-explanation.mp4)
 
 #### 2. Live Demonstration Video
-<video controls width="100%">
-<source src="shipment-sentinel-demo.mp4" type="video/mp4">
-</video>
+
+![Live Demonstration Video](shipment-sentinel-demo.mp4)
 
 ---
 
